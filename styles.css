@@ -1,0 +1,157 @@
+
+/* Put your custom styles here */
+.article-header {
+  background-color: white;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+}
+.byline{
+text-emphasis-color: black;
+padding-bottom: 0px;
+}
+.byline a{
+color: black;
+}
+
+.detectimg {
+  height: 210px;
+  width: 210px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+svg {
+  max-width: 900px;
+  align-content: center;
+}
+
+button:focus {outline:0;}
+
+.foodbank {
+  display: inline-block;
+  align-content: center;
+  padding: 1em 1em 1em 1em;
+  margin: 0.1em 0.1em 0.1em 0.1em;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  /* border-color:  #f14ebd; */
+  border-color: white;
+
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #808080;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: white;
+}
+
+.foodbank:hover {
+  border-color: white;
+  border-color: #808080;
+}
+
+.foodbank img {
+  width: 40px;
+  height: 40px;
+}
+
+.togglediet {
+  padding-left: 0px;
+}
+
+.togglediet label {
+  position: relative;
+  padding-left: 175px;
+  padding-right: 35px;
+  cursor: pointer;
+}
+.togglediet input {
+  position: relative;
+  cursor: pointer;
+}
+
+.true {
+display:inline-block;
+padding: 1em 1em 1em 1em;
+  margin: 0em 4em 2em 4em;
+border:0.16em solid rgba(255,255,255,0);
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+background-color: dodgerblue;
+/* #f14ebd; */
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+text-align:center;
+transition: all 0.2s;
+}
+
+.true:hover {
+  border-color: rgba(255,255,255,1);
+  background-color: steelblue;
+  cursor: pointer;
+}
+
+.false {
+cursor: not-allowed;
+display:inline-block;
+padding: 1em 1em 1em 1em;
+margin: 0em 4em 2em 4em;
+border:0.16em solid rgba(0,0,0,0);
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+background-color:grey;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+/* text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35); */
+text-align:center;
+transition: all 0.2s;
+}
+
+.stepbuttons {
+  padding-left: 200px;
+}
+
+.aboutimagediv {
+  padding-left: 50px;
+  padding-top: 20px;
+  text-align:center;
+
+}
+
+.land_use_comp{
+  width:100%;
+  height: 100%;
+}
+
+/* Change graphic background based on Scroller id */
+#idyll-scroll-0 .idyll-scroll-graphic {
+  background:  #F0F0F0;
+}
+
+#idyll-scroll-1 .idyll-scroll-graphic {
+  background:   #EBFAFF;
+}
+
+#idyll-scroll-2 .idyll-scroll-graphic {
+  background: #F4FFEB;
+}
+
+.idyll-scroll {
+  margin-top: 0px;
+}
+
+.envr_intro{
+  margin-bottom: 70px;
+}
+
+img.three_impacts{
+  width: 500px;
+  height: 200px;
+}
