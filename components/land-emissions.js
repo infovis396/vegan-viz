@@ -66,8 +66,8 @@ class LandEmissions extends D3Component {
     // Now add the annotation. Use the centroid method to get the best coordinates
     pie_g
       .append("text")
-      .text("Global Manmade Greenhouse Gas Emissions by Sector")
-      .attr("x", -200)
+      .text("Global Land Use by Sector")
+      .attr("x", -100)
       .attr("y", -225)
       .style("font-weight", "bolder")
       .style("font-family", "font-family: Arial, Helvetica Neue, Helvetica, sans-serif;")
@@ -341,7 +341,7 @@ class LandEmissions extends D3Component {
               .data(cow_posn_1)
               .enter()
               .append("svg:image")
-              .attr("xlink:href", "/static/images/cow.png")
+              .attr("xlink:href", "static/images/cow.png")
               .attr("x", function(d){
                 return d.x;
               })
@@ -369,7 +369,7 @@ class LandEmissions extends D3Component {
               .data(wheat_posn_1)
               .enter()
               .append("svg:image")
-              .attr("xlink:href", "/static/images/crop.png")
+              .attr("xlink:href", "static/images/crop.png")
               .attr("x", function(d){
                 return d.x;
               })
@@ -418,7 +418,7 @@ class LandEmissions extends D3Component {
               .data(wheat_posn_2)
               .enter()
               .append("svg:image")
-              .attr("xlink:href", "/static/images/crop.png")
+              .attr("xlink:href", "static/images/crop.png")
               .attr("x", function(d){
                 return d.x;
               })
@@ -463,7 +463,7 @@ class LandEmissions extends D3Component {
 
         // add images of stats
         animal_land.append("svg:image")
-            .attr("xlink:href", "/static/images/omnivore_land.png")
+            .attr("xlink:href", "static/images/omnivore_land.png")
             .attr("x", 150)
             .attr("y", 220)
             .attr("width", "100")
@@ -475,7 +475,7 @@ class LandEmissions extends D3Component {
             .attr("style", "opacity: 1")
 
         plant_land.append("svg:image")
-            .attr("xlink:href", "/static/images/vegan_land.png")
+            .attr("xlink:href", "static/images/vegan_land.png")
             .attr("x", 100)
             .attr("y", 195)
             .attr("width", "100")

@@ -228,7 +228,7 @@ class WaterCombineD3Components extends D3Component {
 
 
     this.glass_g.append("svg:image")
-      .attr("xlink:href", "/static/images/omnivore_water.png")
+      .attr("xlink:href", "static/images/omnivore_water.png")
       .attr("x", -120)
       .attr("y", 380)
       .attr("width", "100")
@@ -240,7 +240,7 @@ class WaterCombineD3Components extends D3Component {
       .attr("style", "opacity: 1")
 
     this.glass_g.append("svg:image")
-      .attr("xlink:href", "/static/images/vegan_water.png")
+      .attr("xlink:href", "static/images/vegan_water.png")
       .attr("x", 125)
       .attr("y", 385)
       .attr("width", "100")

@@ -154,7 +154,7 @@ class EmissionsComponent extends D3Component {
 
       console.log("appending world image")
       current_globe.append("svg:image")
-          .attr("xlink:href", "/static/images/world.png")
+          .attr("xlink:href", "static/images/world.png")
           .attr("x", 0)
           .attr("y", 0)
           .attr("width", "175")
@@ -179,7 +179,7 @@ class EmissionsComponent extends D3Component {
                               .attr("class", "updated_globe_svg")
 
       updated_globe.append("svg:image")
-          .attr("xlink:href", "/static/images/world.png")
+          .attr("xlink:href", "static/images/world.png")
           .attr("x", 0)
           .attr("y", 0)
           .attr("r", 100)
@@ -239,7 +239,7 @@ class EmissionsComponent extends D3Component {
           .style("font-family", "font-family: Arial, Helvetica Neue, Helvetica, sans-serif;")
 
       current_globe.append("svg:image")
-          .attr("xlink:href", "/static/images/omnivore_co2.png")
+          .attr("xlink:href", "static/images/omnivore_co2.png")
           .attr("x", 50)
           .attr("y", 190)
           .attr("width", "100")
@@ -252,7 +252,7 @@ class EmissionsComponent extends D3Component {
 
 
       updated_globe.append("svg:image")
-          .attr("xlink:href", "/static/images/vegan_co2.png")
+          .attr("xlink:href", "static/images/vegan_co2.png")
           .attr("x", 50)
           .attr("y", 190)
           .attr("width", "100")

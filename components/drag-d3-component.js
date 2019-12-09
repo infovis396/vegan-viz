@@ -697,7 +697,7 @@ function addStepsLabels(svg) {
     .enter()
     .append("svg:image")
     .attr("xlink:href", function (d) {
-      return "/static/images/restricted.png"
+      return "static/images/restricted.png"
     })
     .attr("class", "eliminatelabel")
     .attr("x", 570)
@@ -724,7 +724,7 @@ function addStepsLabels(svg) {
     .enter()
     .append("svg:image")
     .attr("xlink:href", function (d) {
-      return "/static/images/vegansubs.png"
+      return "static/images/vegansubs.png"
     })
     .attr("class", "substitutelabel")
     .attr("x", 770)
